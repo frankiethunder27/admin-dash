@@ -12,6 +12,7 @@ import {
   mdiPalette,
   mdiVuejs,
   mdiBookOpenPageVariant,
+  mdiSchool,
 } from "@mdi/js";
 import { MenuAsideItem } from "../../_interfaces";
 
@@ -25,6 +26,11 @@ const menuAside: MenuAsideItem[] = [
     href: "/dashboard/directory",
     icon: mdiBookOpenPageVariant,
     label: "Directory",
+  },
+  {
+    href: "/dashboard/lms",
+    icon: mdiSchool,
+    label: "LMS",
   },
   {
     href: "/dashboard/tables",
